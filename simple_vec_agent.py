@@ -1,7 +1,7 @@
 import gym
 from nes_py.wrappers import JoypadSpace
-import gym_super_mario_bros
-from gym_super_mario_bros.actions import SIMPLE_MOVEMENT
+import gym_super_mario_bros_local
+from gym_super_mario_bros_local.actions import SIMPLE_MOVEMENT
 from stable_baselines.common.policies import CnnPolicy
 from stable_baselines.common import make_vec_env
 from stable_baselines import PPO2
